@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>560</x>
+      <y>330</y>
+      <w>220</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>People.sav
+--
+Saves PersonLibrary
+--
+People are saved with
+-Type of person
+-Name
+-How long they've been at school
+-List of classes to attend
+or room they should be in</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>810</x>
+      <y>330</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>People.bak
+--
+This is a backup save file 
+for the people of the school.
+--
+Created once the original
+is done writing.
+--
+if the original has a flaw
+this file will load in it's place.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>160</x>
+      <y>330</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Building.sav
+--
+Saves each Floor in the Building.
+--
+Saves floors with 
+ways to go from
+one floor to another floor
+and rooms.
+--
+Saves rooms and Nodes.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>370</x>
+      <y>90</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Program
+--
+Serializable
+ObjectOutputStream
+-
+-
+-
+
+&lt;--Building       PersonLibrary--&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>550</x>
+      <y>190</y>
+      <w>50</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>30;140;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>340</x>
+      <y>190</y>
+      <w>50</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>30;140;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>550</x>
+      <y>190</y>
+      <w>280</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>260;140;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>70</x>
+      <y>180</y>
+      <w>300</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Saves when the save building option is selected.
+Loads when program is launched</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>580</x>
+      <y>180</y>
+      <w>280</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Saves when a person is Added or Deleted
+Loads when program is launched</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
